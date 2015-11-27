@@ -14,9 +14,8 @@
     return [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([self class]) inManagedObjectContext:context];
 }
 
-+ (BOOL)ar_deleteAllMatchingPredicate:(NSPredicate *)predicate inContext:(NSManagedObjectContext *)context {
++ (BOOL)ar_deleteAllEntitiesInContext:(NSManagedObjectContext *)context {
     NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:NSStringFromClass([self class])];
-    fetchRequest.predicate = predicate;
     NSError *fetchError;
     NSArray *fetchResult = [context executeFetchRequest:fetchRequest error:&fetchError];
     if (fetchError) {
@@ -28,5 +27,6 @@
     }
     return YES;
 }
+
 
 @end

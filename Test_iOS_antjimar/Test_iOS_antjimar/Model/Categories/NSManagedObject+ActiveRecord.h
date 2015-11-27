@@ -11,6 +11,6 @@
 @interface NSManagedObject (ActiveRecord)
 
 + (id)ar_createEntityInContext:(NSManagedObjectContext *)context;
-+ (BOOL)ar_deleteAllMatchingPredicate:(NSPredicate *)predicate inContext:(NSManagedObjectContext *)context;
++ (BOOL)ar_deleteAllEntitiesInContext:(NSManagedObjectContext *)context;
 
 @end

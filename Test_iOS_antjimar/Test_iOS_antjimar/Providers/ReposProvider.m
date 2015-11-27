@@ -7,6 +7,9 @@
 //
 
 #import "ReposProvider.h"
+#import "RepoEntity.h"
+#import "NSManagedObject+Addons.h"
+#import "NSManagedObject+ActiveRecord.h"
 
 @implementation ReposProvider
 
@@ -27,11 +30,28 @@
             }
             
             // Delete old data
-            
+            [RepoEntity ar_deleteAllEntitiesInContext:self.writeManagedObjectContext];
             
             // Persist new data
-            
-            
+            NSMutableArray *reposCache = [NSMutableArray array];
+            for (NSDictionary *repoDict in responseDictionary) {
+                RepoEntity *repoEntity = [RepoEntity parseRepoByDictionary:repoDict inManagedObjectContext:self.writeManagedObjectContext];
+                [reposCache addObject:repoEntity];
+            }
+            NSError *coreDataError;
+            [self.writeManagedObjectContext save:&coreDataError];
+            if (coreDataError) {
+                NSLog(@"%@", coreDataError);
+            }
+            if (completion) {
+                NSMutableArray *mainThreadRepos = [NSMutableArray array];
+                for (RepoEntity *mainThreadRepoEntity in reposCache) {
+                    [mainThreadRepos addObject:[mainThreadRepoEntity objectInManagedObjectContext:self.managedObjectContext]];
+                }
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    completion([mainThreadRepos copy], nil);
+                });
+            }
         }];
         
     } error:^(id responseObject, NSError *error) {
