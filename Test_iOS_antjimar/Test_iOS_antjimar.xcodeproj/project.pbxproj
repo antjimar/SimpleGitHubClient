@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7956DC851C08AD2A000DEFFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956DC841C08AD2A000DEFFF /* main.m */; };
+		7956DC881C08AD2A000DEFFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956DC871C08AD2A000DEFFF /* AppDelegate.m */; };
+		7956DC8B1C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7956DC891C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodeld */; };
+		7956DC8D1C08AD2A000DEFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7956DC8C1C08AD2A000DEFFF /* Assets.xcassets */; };
+		7956DC901C08AD2A000DEFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7956DC8E1C08AD2A000DEFFF /* LaunchScreen.storyboard */; };
+		7956DC9B1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956DC9A1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m */; };
+		7956DCA61C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956DCA51C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7956DC971C08AD2A000DEFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7956DC781C08AD2A000DEFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7956DC7F1C08AD2A000DEFFF;
+			remoteInfo = Test_iOS_antjimar;
+		};
+		7956DCA21C08AD2A000DEFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7956DC781C08AD2A000DEFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7956DC7F1C08AD2A000DEFFF;
+			remoteInfo = Test_iOS_antjimar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7956DC801C08AD2A000DEFFF /* Test_iOS_antjimar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_iOS_antjimar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956DC841C08AD2A000DEFFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7956DC861C08AD2A000DEFFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7956DC871C08AD2A000DEFFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7956DC8A1C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test_iOS_antjimar.xcdatamodel; sourceTree = "<group>"; };
+		7956DC8C1C08AD2A000DEFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7956DC8F1C08AD2A000DEFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7956DC911C08AD2A000DEFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7956DC961C08AD2A000DEFFF /* Test_iOS_antjimarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_iOS_antjimarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956DC9A1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOS_antjimarTests.m; sourceTree = "<group>"; };
+		7956DC9C1C08AD2A000DEFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7956DCA11C08AD2A000DEFFF /* Test_iOS_antjimarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_iOS_antjimarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956DCA51C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOS_antjimarUITests.m; sourceTree = "<group>"; };
+		7956DCA71C08AD2A000DEFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7956DC7D1C08AD2A000DEFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956DC931C08AD2A000DEFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956DC9E1C08AD2A000DEFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7956DC771C08AD2A000DEFFF = {
+			isa = PBXGroup;
+			children = (
+				7956DC821C08AD2A000DEFFF /* Test_iOS_antjimar */,
+				7956DC991C08AD2A000DEFFF /* Test_iOS_antjimarTests */,
+				7956DCA41C08AD2A000DEFFF /* Test_iOS_antjimarUITests */,
+				7956DC811C08AD2A000DEFFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7956DC811C08AD2A000DEFFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7956DC801C08AD2A000DEFFF /* Test_iOS_antjimar.app */,
+				7956DC961C08AD2A000DEFFF /* Test_iOS_antjimarTests.xctest */,
+				7956DCA11C08AD2A000DEFFF /* Test_iOS_antjimarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7956DC821C08AD2A000DEFFF /* Test_iOS_antjimar */ = {
+			isa = PBXGroup;
+			children = (
+				7956DC861C08AD2A000DEFFF /* AppDelegate.h */,
+				7956DC871C08AD2A000DEFFF /* AppDelegate.m */,
+				7956DC8C1C08AD2A000DEFFF /* Assets.xcassets */,
+				7956DC8E1C08AD2A000DEFFF /* LaunchScreen.storyboard */,
+				7956DC911C08AD2A000DEFFF /* Info.plist */,
+				7956DC891C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodeld */,
+				7956DC831C08AD2A000DEFFF /* Supporting Files */,
+			);
+			path = Test_iOS_antjimar;
+			sourceTree = "<group>";
+		};
+		7956DC831C08AD2A000DEFFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7956DC841C08AD2A000DEFFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7956DC991C08AD2A000DEFFF /* Test_iOS_antjimarTests */ = {
+			isa = PBXGroup;
+			children = (
+				7956DC9A1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m */,
+				7956DC9C1C08AD2A000DEFFF /* Info.plist */,
+			);
+			path = Test_iOS_antjimarTests;
+			sourceTree = "<group>";
+		};
+		7956DCA41C08AD2A000DEFFF /* Test_iOS_antjimarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7956DCA51C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m */,
+				7956DCA71C08AD2A000DEFFF /* Info.plist */,
+			);
+			path = Test_iOS_antjimarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7956DC7F1C08AD2A000DEFFF /* Test_iOS_antjimar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7956DCAA1C08AD2A000DEFFF /* Build configuration list for PBXNativeTarget "Test_iOS_antjimar" */;
+			buildPhases = (
+				7956DC7C1C08AD2A000DEFFF /* Sources */,
+				7956DC7D1C08AD2A000DEFFF /* Frameworks */,
+				7956DC7E1C08AD2A000DEFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test_iOS_antjimar;
+			productName = Test_iOS_antjimar;
+			productReference = 7956DC801C08AD2A000DEFFF /* Test_iOS_antjimar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7956DC951C08AD2A000DEFFF /* Test_iOS_antjimarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7956DCAD1C08AD2A000DEFFF /* Build configuration list for PBXNativeTarget "Test_iOS_antjimarTests" */;
+			buildPhases = (
+				7956DC921C08AD2A000DEFFF /* Sources */,
+				7956DC931C08AD2A000DEFFF /* Frameworks */,
+				7956DC941C08AD2A000DEFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7956DC981C08AD2A000DEFFF /* PBXTargetDependency */,
+			);
+			name = Test_iOS_antjimarTests;
+			productName = Test_iOS_antjimarTests;
+			productReference = 7956DC961C08AD2A000DEFFF /* Test_iOS_antjimarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7956DCA01C08AD2A000DEFFF /* Test_iOS_antjimarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7956DCB01C08AD2A000DEFFF /* Build configuration list for PBXNativeTarget "Test_iOS_antjimarUITests" */;
+			buildPhases = (
+				7956DC9D1C08AD2A000DEFFF /* Sources */,
+				7956DC9E1C08AD2A000DEFFF /* Frameworks */,
+				7956DC9F1C08AD2A000DEFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7956DCA31C08AD2A000DEFFF /* PBXTargetDependency */,
+			);
+			name = Test_iOS_antjimarUITests;
+			productName = Test_iOS_antjimarUITests;
+			productReference = 7956DCA11C08AD2A000DEFFF /* Test_iOS_antjimarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7956DC781C08AD2A000DEFFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Antonio;
+				TargetAttributes = {
+					7956DC7F1C08AD2A000DEFFF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					7956DC951C08AD2A000DEFFF = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 7956DC7F1C08AD2A000DEFFF;
+					};
+					7956DCA01C08AD2A000DEFFF = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 7956DC7F1C08AD2A000DEFFF;
+					};
+				};
+			};
+			buildConfigurationList = 7956DC7B1C08AD2A000DEFFF /* Build configuration list for PBXProject "Test_iOS_antjimar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7956DC771C08AD2A000DEFFF;
+			productRefGroup = 7956DC811C08AD2A000DEFFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7956DC7F1C08AD2A000DEFFF /* Test_iOS_antjimar */,
+				7956DC951C08AD2A000DEFFF /* Test_iOS_antjimarTests */,
+				7956DCA01C08AD2A000DEFFF /* Test_iOS_antjimarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7956DC7E1C08AD2A000DEFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956DC8D1C08AD2A000DEFFF /* Assets.xcassets in Resources */,
+				7956DC901C08AD2A000DEFFF /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956DC941C08AD2A000DEFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956DC9F1C08AD2A000DEFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7956DC7C1C08AD2A000DEFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956DC8B1C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodeld in Sources */,
+				7956DC881C08AD2A000DEFFF /* AppDelegate.m in Sources */,
+				7956DC851C08AD2A000DEFFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956DC921C08AD2A000DEFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956DC9B1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956DC9D1C08AD2A000DEFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956DCA61C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7956DC981C08AD2A000DEFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7956DC7F1C08AD2A000DEFFF /* Test_iOS_antjimar */;
+			targetProxy = 7956DC971C08AD2A000DEFFF /* PBXContainerItemProxy */;
+		};
+		7956DCA31C08AD2A000DEFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7956DC7F1C08AD2A000DEFFF /* Test_iOS_antjimar */;
+			targetProxy = 7956DCA21C08AD2A000DEFFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7956DC8E1C08AD2A000DEFFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7956DC8F1C08AD2A000DEFFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7956DCA81C08AD2A000DEFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7956DCA91C08AD2A000DEFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7956DCAB1C08AD2A000DEFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Test_iOS_antjimar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antjimar.Test-iOS-antjimar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7956DCAC1C08AD2A000DEFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Test_iOS_antjimar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antjimar.Test-iOS-antjimar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7956DCAE1C08AD2A000DEFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Test_iOS_antjimarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antjimar.Test-iOS-antjimarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test_iOS_antjimar.app/Test_iOS_antjimar";
+			};
+			name = Debug;
+		};
+		7956DCAF1C08AD2A000DEFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Test_iOS_antjimarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antjimar.Test-iOS-antjimarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test_iOS_antjimar.app/Test_iOS_antjimar";
+			};
+			name = Release;
+		};
+		7956DCB11C08AD2A000DEFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Test_iOS_antjimarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antjimar.Test-iOS-antjimarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Test_iOS_antjimar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7956DCB21C08AD2A000DEFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Test_iOS_antjimarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antjimar.Test-iOS-antjimarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Test_iOS_antjimar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7956DC7B1C08AD2A000DEFFF /* Build configuration list for PBXProject "Test_iOS_antjimar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956DCA81C08AD2A000DEFFF /* Debug */,
+				7956DCA91C08AD2A000DEFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7956DCAA1C08AD2A000DEFFF /* Build configuration list for PBXNativeTarget "Test_iOS_antjimar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956DCAB1C08AD2A000DEFFF /* Debug */,
+				7956DCAC1C08AD2A000DEFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7956DCAD1C08AD2A000DEFFF /* Build configuration list for PBXNativeTarget "Test_iOS_antjimarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956DCAE1C08AD2A000DEFFF /* Debug */,
+				7956DCAF1C08AD2A000DEFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7956DCB01C08AD2A000DEFFF /* Build configuration list for PBXNativeTarget "Test_iOS_antjimarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956DCB11C08AD2A000DEFFF /* Debug */,
+				7956DCB21C08AD2A000DEFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7956DC891C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7956DC8A1C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodel */,
+			);
+			currentVersion = 7956DC8A1C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodel */;
+			path = Test_iOS_antjimar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7956DC781C08AD2A000DEFFF /* Project object */;
+}
