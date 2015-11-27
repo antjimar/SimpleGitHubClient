@@ -19,6 +19,7 @@
 		79E81E9A1C08B45700CB76E4 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81E991C08B45700CB76E4 /* CoreDataStack.m */; };
 		79E81E9E1C08B48A00CB76E4 /* Test_iOS_antjimar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79E81E9C1C08B48A00CB76E4 /* Test_iOS_antjimar.xcdatamodeld */; };
 		79E81EA11C08B6B300CB76E4 /* BaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EA01C08B6B300CB76E4 /* BaseProvider.m */; };
+		79E81EA41C08B84300CB76E4 /* ReposProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EA31C08B84300CB76E4 /* ReposProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		79E81E9D1C08B48A00CB76E4 /* Test_iOS_antjimar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test_iOS_antjimar.xcdatamodel; sourceTree = "<group>"; };
 		79E81E9F1C08B6B300CB76E4 /* BaseProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseProvider.h; path = Providers/BaseProvider.h; sourceTree = "<group>"; };
 		79E81EA01C08B6B300CB76E4 /* BaseProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseProvider.m; path = Providers/BaseProvider.m; sourceTree = "<group>"; };
+		79E81EA21C08B84300CB76E4 /* ReposProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReposProvider.h; path = Providers/ReposProvider.h; sourceTree = "<group>"; };
+		79E81EA31C08B84300CB76E4 /* ReposProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReposProvider.m; path = Providers/ReposProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,8 @@
 			children = (
 				79E81E9F1C08B6B300CB76E4 /* BaseProvider.h */,
 				79E81EA01C08B6B300CB76E4 /* BaseProvider.m */,
+				79E81EA21C08B84300CB76E4 /* ReposProvider.h */,
+				79E81EA31C08B84300CB76E4 /* ReposProvider.m */,
 			);
 			name = Providers;
 			sourceTree = "<group>";
@@ -372,6 +377,7 @@
 				7956DC851C08AD2A000DEFFF /* main.m in Sources */,
 				79E81E951C08B28600CB76E4 /* HTTPRequestManager.m in Sources */,
 				79E81EA11C08B6B300CB76E4 /* BaseProvider.m in Sources */,
+				79E81EA41C08B84300CB76E4 /* ReposProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
