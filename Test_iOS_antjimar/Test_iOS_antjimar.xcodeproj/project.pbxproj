@@ -213,13 +213,13 @@
 		79E81E8D1C08B28600CB76E4 /* Connection */ = {
 			isa = PBXGroup;
 			children = (
-				79E81E8E1C08B28600CB76E4 /* HTTPRequestManager.h */,
-				79E81E8F1C08B28600CB76E4 /* HTTPRequestManager.m */,
 				79E81E901C08B28600CB76E4 /* HTTPSessionManager.h */,
 				79E81E911C08B28600CB76E4 /* HTTPSessionManager.m */,
 				79E81E921C08B28600CB76E4 /* RequestManagerFactory.h */,
 				79E81E931C08B28600CB76E4 /* RequestManagerFactory.m */,
 				79E81E941C08B28600CB76E4 /* RequestManagerProtocol.h */,
+				79E81E8E1C08B28600CB76E4 /* HTTPRequestManager.h */,
+				79E81E8F1C08B28600CB76E4 /* HTTPRequestManager.m */,
 			);
 			path = Connection;
 			sourceTree = "<group>";
