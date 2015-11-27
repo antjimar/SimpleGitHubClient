@@ -25,6 +25,7 @@
 		79E81EB11C08BC6900CB76E4 /* RepoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EAF1C08BC6900CB76E4 /* RepoEntity.m */; };
 		79E81EB31C08BFB400CB76E4 /* RepoEntityTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EB21C08BFB400CB76E4 /* RepoEntityTest.m */; };
 		79E81EB71C08C00C00CB76E4 /* InMemoryCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EB61C08C00C00CB76E4 /* InMemoryCoreDataStack.m */; };
+		79E81EBA1C08C76600CB76E4 /* LoadReposInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EB91C08C76600CB76E4 /* LoadReposInteractor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		79E81EB21C08BFB400CB76E4 /* RepoEntityTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoEntityTest.m; sourceTree = "<group>"; };
 		79E81EB51C08C00C00CB76E4 /* InMemoryCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InMemoryCoreDataStack.h; path = "Supporting Files/InMemoryCoreDataStack.h"; sourceTree = "<group>"; };
 		79E81EB61C08C00C00CB76E4 /* InMemoryCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InMemoryCoreDataStack.m; path = "Supporting Files/InMemoryCoreDataStack.m"; sourceTree = "<group>"; };
+		79E81EB81C08C76600CB76E4 /* LoadReposInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadReposInteractor.h; path = "Use Cases/LoadReposInteractor.h"; sourceTree = "<group>"; };
+		79E81EB91C08C76600CB76E4 /* LoadReposInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadReposInteractor.m; path = "Use Cases/LoadReposInteractor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +139,7 @@
 				7956DC871C08AD2A000DEFFF /* AppDelegate.m */,
 				79E81E7A1C08AEA700CB76E4 /* Secctions */,
 				79E81E7B1C08AEB400CB76E4 /* Model */,
-				79E81E7C1C08AEBB00CB76E4 /* User Cases */,
+				79E81E7C1C08AEBB00CB76E4 /* Use Cases */,
 				79E81E7D1C08AEC600CB76E4 /* Providers */,
 				79E81E8D1C08B28600CB76E4 /* Connection */,
 				7956DC8C1C08AD2A000DEFFF /* Assets.xcassets */,
@@ -192,11 +195,13 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		79E81E7C1C08AEBB00CB76E4 /* User Cases */ = {
+		79E81E7C1C08AEBB00CB76E4 /* Use Cases */ = {
 			isa = PBXGroup;
 			children = (
+				79E81EB81C08C76600CB76E4 /* LoadReposInteractor.h */,
+				79E81EB91C08C76600CB76E4 /* LoadReposInteractor.m */,
 			);
-			name = "User Cases";
+			name = "Use Cases";
 			sourceTree = "<group>";
 		};
 		79E81E7D1C08AEC600CB76E4 /* Providers */ = {
@@ -408,6 +413,7 @@
 				79E81E9E1C08B48A00CB76E4 /* Test_iOS_antjimar.xcdatamodeld in Sources */,
 				79E81E9A1C08B45700CB76E4 /* CoreDataStack.m in Sources */,
 				7956DC881C08AD2A000DEFFF /* AppDelegate.m in Sources */,
+				79E81EBA1C08C76600CB76E4 /* LoadReposInteractor.m in Sources */,
 				7956DC851C08AD2A000DEFFF /* main.m in Sources */,
 				79E81E951C08B28600CB76E4 /* HTTPRequestManager.m in Sources */,
 				79E81EB01C08BC6900CB76E4 /* RepoEntity+CoreDataProperties.m in Sources */,
