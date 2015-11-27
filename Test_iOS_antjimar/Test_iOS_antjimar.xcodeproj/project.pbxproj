@@ -11,7 +11,6 @@
 		7956DC881C08AD2A000DEFFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956DC871C08AD2A000DEFFF /* AppDelegate.m */; };
 		7956DC8D1C08AD2A000DEFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7956DC8C1C08AD2A000DEFFF /* Assets.xcassets */; };
 		7956DC901C08AD2A000DEFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7956DC8E1C08AD2A000DEFFF /* LaunchScreen.storyboard */; };
-		7956DC9B1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956DC9A1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m */; };
 		7956DCA61C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956DCA51C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m */; };
 		79E81E951C08B28600CB76E4 /* HTTPRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81E8F1C08B28600CB76E4 /* HTTPRequestManager.m */; };
 		79E81E961C08B28600CB76E4 /* HTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81E911C08B28600CB76E4 /* HTTPSessionManager.m */; };
@@ -24,6 +23,8 @@
 		79E81EAB1C08BAC900CB76E4 /* NSManagedObject+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EAA1C08BAC900CB76E4 /* NSManagedObject+ActiveRecord.m */; };
 		79E81EB01C08BC6900CB76E4 /* RepoEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EAD1C08BC6900CB76E4 /* RepoEntity+CoreDataProperties.m */; };
 		79E81EB11C08BC6900CB76E4 /* RepoEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EAF1C08BC6900CB76E4 /* RepoEntity.m */; };
+		79E81EB31C08BFB400CB76E4 /* RepoEntityTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EB21C08BFB400CB76E4 /* RepoEntityTest.m */; };
+		79E81EB71C08C00C00CB76E4 /* InMemoryCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EB61C08C00C00CB76E4 /* InMemoryCoreDataStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,6 @@
 		7956DC8F1C08AD2A000DEFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7956DC911C08AD2A000DEFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7956DC961C08AD2A000DEFFF /* Test_iOS_antjimarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_iOS_antjimarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7956DC9A1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOS_antjimarTests.m; sourceTree = "<group>"; };
 		7956DC9C1C08AD2A000DEFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7956DCA11C08AD2A000DEFFF /* Test_iOS_antjimarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_iOS_antjimarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7956DCA51C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOS_antjimarUITests.m; sourceTree = "<group>"; };
@@ -79,6 +79,9 @@
 		79E81EAD1C08BC6900CB76E4 /* RepoEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RepoEntity+CoreDataProperties.m"; path = "Model/Entities/RepoEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 		79E81EAE1C08BC6900CB76E4 /* RepoEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RepoEntity.h; path = Model/Entities/RepoEntity.h; sourceTree = "<group>"; };
 		79E81EAF1C08BC6900CB76E4 /* RepoEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RepoEntity.m; path = Model/Entities/RepoEntity.m; sourceTree = "<group>"; };
+		79E81EB21C08BFB400CB76E4 /* RepoEntityTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoEntityTest.m; sourceTree = "<group>"; };
+		79E81EB51C08C00C00CB76E4 /* InMemoryCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InMemoryCoreDataStack.h; path = "Supporting Files/InMemoryCoreDataStack.h"; sourceTree = "<group>"; };
+		79E81EB61C08C00C00CB76E4 /* InMemoryCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InMemoryCoreDataStack.m; path = "Supporting Files/InMemoryCoreDataStack.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +158,8 @@
 		7956DC991C08AD2A000DEFFF /* Test_iOS_antjimarTests */ = {
 			isa = PBXGroup;
 			children = (
-				7956DC9A1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m */,
+				79E81EB41C08BFE500CB76E4 /* Supporting Files */,
+				79E81EB21C08BFB400CB76E4 /* RepoEntityTest.m */,
 				7956DC9C1C08AD2A000DEFFF /* Info.plist */,
 			);
 			path = Test_iOS_antjimarTests;
@@ -258,6 +262,15 @@
 			);
 			name = DataModel;
 			path = Model/DataModel;
+			sourceTree = "<group>";
+		};
+		79E81EB41C08BFE500CB76E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E81EB51C08C00C00CB76E4 /* InMemoryCoreDataStack.h */,
+				79E81EB61C08C00C00CB76E4 /* InMemoryCoreDataStack.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,7 +422,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7956DC9B1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m in Sources */,
+				79E81EB31C08BFB400CB76E4 /* RepoEntityTest.m in Sources */,
+				79E81EB71C08C00C00CB76E4 /* InMemoryCoreDataStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

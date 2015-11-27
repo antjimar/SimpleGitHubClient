@@ -12,12 +12,12 @@
 
 + (instancetype)parseRepoByDictionary:(NSDictionary *)dictionary inManagedObjectContext:(NSManagedObjectContext *)context {
     RepoEntity *repoEntity = [NSEntityDescription insertNewObjectForEntityForName:NSStringFromClass([self class]) inManagedObjectContext:context];
-    repoEntity.repoEntityId = objectFromDictionaryValue(dictionary[@"id"]);
+    repoEntity.repoEntityId = [NSString stringWithFormat:@"%@", objectFromDictionaryValue(dictionary[@"id"])];
     repoEntity.repoEntityName = objectFromDictionaryValue(dictionary[@"name"]);
     repoEntity.repoEntityDescription = objectFromDictionaryValue(dictionary[@"description"]);
     repoEntity.repoEntityOwnerLogin = objectFromDictionaryValue(dictionary[@"owner"][@"login"]);
     if (objectFromDictionaryValue(dictionary[@"fork"])) {
-        repoEntity.repoEntityFork = [NSNumber numberWithBool:objectFromDictionaryValue(dictionary[@"fork"])];
+        repoEntity.repoEntityFork = objectFromDictionaryValue(dictionary[@"fork"]);
     }
     return repoEntity;
 }
