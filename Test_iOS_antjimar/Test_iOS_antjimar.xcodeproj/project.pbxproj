@@ -14,6 +14,9 @@
 		7956DC901C08AD2A000DEFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7956DC8E1C08AD2A000DEFFF /* LaunchScreen.storyboard */; };
 		7956DC9B1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956DC9A1C08AD2A000DEFFF /* Test_iOS_antjimarTests.m */; };
 		7956DCA61C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956DCA51C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m */; };
+		79E81E851C08AF7400CB76E4 /* HTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81E841C08AF7400CB76E4 /* HTTPSessionManager.m */; };
+		79E81E891C08B05000CB76E4 /* RequestManagerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81E881C08B05000CB76E4 /* RequestManagerFactory.m */; };
+		79E81E8C1C08B0C600CB76E4 /* HTTPRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81E8B1C08B0C600CB76E4 /* HTTPRequestManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,13 @@
 		7956DCA11C08AD2A000DEFFF /* Test_iOS_antjimarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_iOS_antjimarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7956DCA51C08AD2A000DEFFF /* Test_iOS_antjimarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_iOS_antjimarUITests.m; sourceTree = "<group>"; };
 		7956DCA71C08AD2A000DEFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E81E831C08AF7400CB76E4 /* HTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPSessionManager.h; sourceTree = "<group>"; };
+		79E81E841C08AF7400CB76E4 /* HTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPSessionManager.m; sourceTree = "<group>"; };
+		79E81E861C08B00E00CB76E4 /* RequestManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManagerProtocol.h; sourceTree = "<group>"; };
+		79E81E871C08B05000CB76E4 /* RequestManagerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManagerFactory.h; sourceTree = "<group>"; };
+		79E81E881C08B05000CB76E4 /* RequestManagerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManagerFactory.m; sourceTree = "<group>"; };
+		79E81E8A1C08B0C600CB76E4 /* HTTPRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequestManager.h; sourceTree = "<group>"; };
+		79E81E8B1C08B0C600CB76E4 /* HTTPRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequestManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +110,14 @@
 			children = (
 				7956DC861C08AD2A000DEFFF /* AppDelegate.h */,
 				7956DC871C08AD2A000DEFFF /* AppDelegate.m */,
+				79E81E7A1C08AEA700CB76E4 /* Secctions */,
+				79E81E7B1C08AEB400CB76E4 /* Model */,
+				79E81E7C1C08AEBB00CB76E4 /* User Cases */,
+				79E81E7D1C08AEC600CB76E4 /* Providers */,
+				79E81E7E1C08AECE00CB76E4 /* Connection */,
 				7956DC8C1C08AD2A000DEFFF /* Assets.xcassets */,
 				7956DC8E1C08AD2A000DEFFF /* LaunchScreen.storyboard */,
 				7956DC911C08AD2A000DEFFF /* Info.plist */,
-				7956DC891C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodeld */,
 				7956DC831C08AD2A000DEFFF /* Supporting Files */,
 			);
 			path = Test_iOS_antjimar;
@@ -133,6 +147,81 @@
 				7956DCA71C08AD2A000DEFFF /* Info.plist */,
 			);
 			path = Test_iOS_antjimarUITests;
+			sourceTree = "<group>";
+		};
+		79E81E7A1C08AEA700CB76E4 /* Secctions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Secctions;
+			sourceTree = "<group>";
+		};
+		79E81E7B1C08AEB400CB76E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79E81E7F1C08AEEA00CB76E4 /* DataModel */,
+				79E81E801C08AEFD00CB76E4 /* CoreDataStack */,
+				79E81E811C08AF1500CB76E4 /* Entitites */,
+				79E81E821C08AF2400CB76E4 /* Categories */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		79E81E7C1C08AEBB00CB76E4 /* User Cases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "User Cases";
+			sourceTree = "<group>";
+		};
+		79E81E7D1C08AEC600CB76E4 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Providers;
+			sourceTree = "<group>";
+		};
+		79E81E7E1C08AECE00CB76E4 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				79E81E831C08AF7400CB76E4 /* HTTPSessionManager.h */,
+				79E81E841C08AF7400CB76E4 /* HTTPSessionManager.m */,
+				79E81E871C08B05000CB76E4 /* RequestManagerFactory.h */,
+				79E81E881C08B05000CB76E4 /* RequestManagerFactory.m */,
+				79E81E861C08B00E00CB76E4 /* RequestManagerProtocol.h */,
+				79E81E8A1C08B0C600CB76E4 /* HTTPRequestManager.h */,
+				79E81E8B1C08B0C600CB76E4 /* HTTPRequestManager.m */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
+		79E81E7F1C08AEEA00CB76E4 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				7956DC891C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodeld */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		79E81E801C08AEFD00CB76E4 /* CoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreDataStack;
+			sourceTree = "<group>";
+		};
+		79E81E811C08AF1500CB76E4 /* Entitites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entitites;
+			sourceTree = "<group>";
+		};
+		79E81E821C08AF2400CB76E4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +354,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7956DC8B1C08AD2A000DEFFF /* Test_iOS_antjimar.xcdatamodeld in Sources */,
+				79E81E891C08B05000CB76E4 /* RequestManagerFactory.m in Sources */,
 				7956DC881C08AD2A000DEFFF /* AppDelegate.m in Sources */,
+				79E81E8C1C08B0C600CB76E4 /* HTTPRequestManager.m in Sources */,
+				79E81E851C08AF7400CB76E4 /* HTTPSessionManager.m in Sources */,
 				7956DC851C08AD2A000DEFFF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +574,7 @@
 				7956DCAC1C08AD2A000DEFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7956DCAD1C08AD2A000DEFFF /* Build configuration list for PBXNativeTarget "Test_iOS_antjimarTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +583,7 @@
 				7956DCAF1C08AD2A000DEFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7956DCB01C08AD2A000DEFFF /* Build configuration list for PBXNativeTarget "Test_iOS_antjimarUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +592,7 @@
 				7956DCB21C08AD2A000DEFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
