@@ -74,13 +74,6 @@
     if (repoEntity.repoEntityFork == nil || repoEntity.repoEntityFork == 0) {
         cell.contentView.backgroundColor = [UIColor greenColor];
     }
-
-//    id<PictureEntityProtocol> item = [self.fetchedResultsController objectAtIndexPath:indexPath];
-//    UICollectionViewCell<PictureEntityCellProtocol> *cell = [PictureEntityFactory cellForEntity:item
-//                                                                              forCollectionView:collectionView
-//                                                                                    atIndexPath:indexPath];
-//    [cell drawPictureEntity:item];
-    
     return cell;
 }
 
