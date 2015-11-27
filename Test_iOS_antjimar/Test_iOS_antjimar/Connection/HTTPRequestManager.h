@@ -9,6 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "RequestManagerProtocol.h"
 
+@class HTTPSessionManager;
+
 @interface HTTPRequestManager : NSObject<RequestManagerProtocol>
+
+@property (strong, nonatomic) HTTPSessionManager *httpSessionManager;
 
 @end
