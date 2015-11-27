@@ -20,6 +20,8 @@
 		79E81E9E1C08B48A00CB76E4 /* Test_iOS_antjimar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79E81E9C1C08B48A00CB76E4 /* Test_iOS_antjimar.xcdatamodeld */; };
 		79E81EA11C08B6B300CB76E4 /* BaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EA01C08B6B300CB76E4 /* BaseProvider.m */; };
 		79E81EA41C08B84300CB76E4 /* ReposProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EA31C08B84300CB76E4 /* ReposProvider.m */; };
+		79E81EA81C08BA7000CB76E4 /* NSManagedObject+Addons.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EA71C08BA7000CB76E4 /* NSManagedObject+Addons.m */; };
+		79E81EAB1C08BAC900CB76E4 /* NSManagedObject+ActiveRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E81EAA1C08BAC900CB76E4 /* NSManagedObject+ActiveRecord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,10 @@
 		79E81EA01C08B6B300CB76E4 /* BaseProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseProvider.m; path = Providers/BaseProvider.m; sourceTree = "<group>"; };
 		79E81EA21C08B84300CB76E4 /* ReposProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReposProvider.h; path = Providers/ReposProvider.h; sourceTree = "<group>"; };
 		79E81EA31C08B84300CB76E4 /* ReposProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReposProvider.m; path = Providers/ReposProvider.m; sourceTree = "<group>"; };
+		79E81EA61C08BA7000CB76E4 /* NSManagedObject+Addons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+Addons.h"; path = "Model/Categories/NSManagedObject+Addons.h"; sourceTree = "<group>"; };
+		79E81EA71C08BA7000CB76E4 /* NSManagedObject+Addons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+Addons.m"; path = "Model/Categories/NSManagedObject+Addons.m"; sourceTree = "<group>"; };
+		79E81EA91C08BAC900CB76E4 /* NSManagedObject+ActiveRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+ActiveRecord.h"; path = "Model/Categories/NSManagedObject+ActiveRecord.h"; sourceTree = "<group>"; };
+		79E81EAA1C08BAC900CB76E4 /* NSManagedObject+ActiveRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+ActiveRecord.m"; path = "Model/Categories/NSManagedObject+ActiveRecord.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +219,10 @@
 		79E81E821C08AF2400CB76E4 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				79E81EA61C08BA7000CB76E4 /* NSManagedObject+Addons.h */,
+				79E81EA71C08BA7000CB76E4 /* NSManagedObject+Addons.m */,
+				79E81EA91C08BAC900CB76E4 /* NSManagedObject+ActiveRecord.h */,
+				79E81EAA1C08BAC900CB76E4 /* NSManagedObject+ActiveRecord.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -371,12 +381,14 @@
 			files = (
 				79E81E971C08B28600CB76E4 /* RequestManagerFactory.m in Sources */,
 				79E81E961C08B28600CB76E4 /* HTTPSessionManager.m in Sources */,
+				79E81EA81C08BA7000CB76E4 /* NSManagedObject+Addons.m in Sources */,
 				79E81E9E1C08B48A00CB76E4 /* Test_iOS_antjimar.xcdatamodeld in Sources */,
 				79E81E9A1C08B45700CB76E4 /* CoreDataStack.m in Sources */,
 				7956DC881C08AD2A000DEFFF /* AppDelegate.m in Sources */,
 				7956DC851C08AD2A000DEFFF /* main.m in Sources */,
 				79E81E951C08B28600CB76E4 /* HTTPRequestManager.m in Sources */,
 				79E81EA11C08B6B300CB76E4 /* BaseProvider.m in Sources */,
+				79E81EAB1C08BAC900CB76E4 /* NSManagedObject+ActiveRecord.m in Sources */,
 				79E81EA41C08B84300CB76E4 /* ReposProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
